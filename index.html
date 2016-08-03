@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' />
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <title>Calculadora JavaScript</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Offside">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans"> 
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="js/calculadora.js"></script>
+  </head>
+  <body>
+    
+    <h1>Desarrollado por Javier Ocampos</h1>
+    <h2>Para el curso de programación en JavaScript de Píldoras informáticas</h2>
+
+    <div id="calculadora">
+      <img src="img/logo-casio.png" class="logo" alt="Casio">
+
+      <!-- Se deja un espacio en blanco para que exista nodeValue -->
+      <div class="display"> </div>
+
+      <div  id="botones">
+        <button class="limpiar" onclick="calculadora('C')">Limpiar</button>
+
+        <button onclick="calculadora(7)">7</button>
+        <button onclick="calculadora(8)">8</button>
+        <button onclick="calculadora(9)">9</button>
+        <button onclick="calculadora('/')">÷</button>
+
+        <button onclick="calculadora(4)">4</button>
+        <button onclick="calculadora(5)">5</button>
+        <button onclick="calculadora(6)">6</button>
+        <button onclick="calculadora('*')">x</button>
+
+        <button onclick="calculadora(1)">1</button>
+        <button onclick="calculadora(2)">2</button>
+        <button onclick="calculadora(3)">3</button>
+        <button onclick="calculadora('-')">-</button>
+
+        <button onclick="calculadora('.')">.</button>
+        <button onclick="calculadora(0)">0</button>
+        <button onclick="calculadora('=')">=</button>
+        <button onclick="calculadora('+')">+</button>
+      </div>
+
+      <footer class="copyright">
+        Leedeo calculator system 1.0
+      </footer>
+    </div>
+
+  </body>
+</html>
